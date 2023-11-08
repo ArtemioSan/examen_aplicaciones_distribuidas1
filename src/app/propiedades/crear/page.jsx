@@ -32,7 +32,7 @@ function PropiedadesForm() {
 
   return (
     <div className="m-8">
-      <h2 className="text-2xl font-extrabold ">Formulario de Propiedad</h2>
+      <h2 className="text-2xl font-extrabold ">Formulario de registro |Propiedad</h2>
       <form
         onSubmit={handleSubmit}
         className="px-8 pt-6 pb-8 mb-4 rounded-md shadow-md bg-gray-50"
@@ -110,11 +110,11 @@ function PropiedadesForm() {
         >
           <option value="Libre">Libre</option>
           <option value="Ocupada">Ocupado</option>
-          <option value="Mantenimiento">En Mantenimiento</option>
+          <option value="Mantenimiento">Mantenimiento</option>
         </select>
 
         <button
-          className="bg-green-500 hover:bg-green-700 text-sm text-white 
+          className="bg-blue-500 hover:bg-blue-700 text-sm text-white 
           font-bold py-2 px-4 rounded mt-5"
         >
           Registrar
